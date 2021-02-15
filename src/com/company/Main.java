@@ -48,11 +48,11 @@ public class Main {
         if (garbage)
             message += "В номере есть пробелы и/или скобки; ";
         if (phoneNumber.length() > 11) {
-            message += "Сумма символов больше 11 ";
+            message += "Количество символов больше 11 ";
             wrongLength = true;
         }
         if (phoneNumber.length() < 11) {
-            message += "Сумма символов меньше 11 ";
+            message += "Количество символов меньше 11 ";
             wrongLength = true;
         }
         if (wrongLength)
